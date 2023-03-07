@@ -1,0 +1,28 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    font-size: 2rem;
+}
+ 
+p {
+    font-size: 1.6rem;
+    margin: 0 auto;
+}
+
+.error_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.error_heading{
+    margin-bottom: 4.2rem;
+} 
